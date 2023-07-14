@@ -14,7 +14,12 @@ public class CounterStrike {
         int fragsBoom = 0;
         if (scanner.hasNextInt()) {
             fragsBoom = scanner.nextInt();
-        } else {
+
+//            if (fragsBoom < 0) {
+//                System.out.println("від'ємне значення, будь-ласка перезапустіть програму.");
+//                System.exit(0);
+//            }
+            } else {
             System.out.println("помилкове значення, будь-ласка перезапустіть програму.");
             System.exit(0);
         }
