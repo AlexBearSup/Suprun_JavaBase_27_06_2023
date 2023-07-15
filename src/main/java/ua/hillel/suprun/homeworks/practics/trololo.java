@@ -24,46 +24,45 @@ public class trololo {
 //            System.out.println("you were born in " + god + "." + " This is leap year");
 //        } else {
 //            System.out.println("you were born in " + god + "." + " This is not leap year");
+////        }
+//
+//        // ДЕНЬ НЕДЕЛИ
+//        int den = 1;
+//        System.out.println("введите число от 1 до 7, что бы выбрать день недели :");
+//        if (scanner.hasNextInt() && (scanner.nextInt() > 0)){
+//            den = scanner.nextInt();
+//            System.out.println("выбрано число = " + den);
+//        } else {
+//            System.out.println("chislo dolgno byt > 0");
 //        }
-
-        // ДЕНЬ НЕДЕЛИ
-        int den = 1;
-        System.out.println("введите число от 1 до 7, что бы выбрать день недели :");
-        if (scanner.hasNextInt() && (scanner.nextInt() > 0)){
-            den = scanner.nextInt();
-            System.out.println("выбрано число = " + den);
-        } else {
-            System.out.println("chislo dolgno byt > 0");
-        }
-
-        switch (den) {
-            case (1):
-                System.out.println("Понедельник");
-                break;
-            case (2):
-                System.out.println("Вторник");
-                break;
-            case (3):
-                System.out.println("Среда");
-                break;
-            case (4):
-                System.out.println("Четверг");
-                break;
-            case (5):
-                System.out.println("Пятница");
-                break;
-
-            case (6):
-                System.out.println("Суббота");
-                break;
-            case (7):
-                System.out.println("Воскресенье");
-                break;
-            default:
-                System.out.println("Такое вряд ли получится, но всё же :)");
-                return;
-        }
-
+//
+//        switch (den) {
+//            case (1):
+//                System.out.println("Понедельник");
+//                break;
+//            case (2):
+//                System.out.println("Вторник");
+//                break;
+//            case (3):
+//                System.out.println("Среда");
+//                break;
+//            case (4):
+//                System.out.println("Четверг");
+//                break;
+//            case (5):
+//                System.out.println("Пятница");
+//                break;
+//
+//            case (6):
+//                System.out.println("Суббота");
+//                break;
+//            case (7):
+//                System.out.println("Воскресенье");
+//                break;
+//            default:
+//                System.out.println("Такое вряд ли получится, но всё же :)");
+//                return;
+//        }
 
 
 
