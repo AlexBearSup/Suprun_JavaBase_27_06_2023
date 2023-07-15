@@ -18,7 +18,7 @@ public class GuessTheNumber {
 
             while (!scanner.hasNextInt()) {
                 System.out.print("not number, please enter number from 0 to 10, so number is =");
-                scanner.next();
+                scanner.nextLine();
             }
             if (scanner.hasNextInt()){
                 playerСhoice = scanner.nextInt();
