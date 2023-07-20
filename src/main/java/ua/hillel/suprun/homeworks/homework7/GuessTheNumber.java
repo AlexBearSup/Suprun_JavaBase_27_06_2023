@@ -22,7 +22,6 @@ public class GuessTheNumber {
             }
             if (scanner.hasNextInt()){
                 playerСhoice = scanner.nextInt();
-
                 if (playerСhoice == numberAI) {
                     System.out.println("you win !!!");
                     System.exit(0);
