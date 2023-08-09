@@ -33,6 +33,7 @@ public class FitnessTracker {
     }
 
     void printAccountInfo(){
+        System.out.println("-----------------------------");
         System.out.println("Ім'я/прізвище: " + name + " " + surname);
         System.out.println("Дата народження: " + birthDay + "." + birthMonth + "." + birthYear + "р.");
         System.out.println("Вік: " + age + " р.");
@@ -41,6 +42,7 @@ public class FitnessTracker {
         System.out.println("Вага: " + weight + "кг");
         System.out.println("Тиск: " + pressureHigh + "/" + pressureLow);
         System.out.println("Кількість пройдених за день кроків: " + numberOfStepsTaken);
+        System.out.println("-----------------------------");
     }
 
     public String getName() {

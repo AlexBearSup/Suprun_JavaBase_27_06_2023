@@ -3,7 +3,7 @@ package ua.hillel.suprun.homeworks.homework14;
 public class Main {
     public static void main(String[] args) {
 
-        FitnessTracker person1 = new FitnessTracker("Вітвлій", "Бубка", 1, 3,1978,
+        FitnessTracker person1 = new FitnessTracker("Віталій", "Бубка", 1, 3,1978,
                 "Bubka@gmail.com","+38-063-975-14-12", 112.2,120,80,
                 4500);
         person1.printAccountInfo();
