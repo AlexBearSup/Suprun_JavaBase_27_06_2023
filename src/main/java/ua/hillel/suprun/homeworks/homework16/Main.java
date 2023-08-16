@@ -14,7 +14,7 @@ public class Main {
         System.out.println();
 
 
-        System.out.println("My old phone was" + oldTelephone.getNameOfCompany() + " " + oldTelephone.getModelName());
+        System.out.println("My old phone was " + oldTelephone.getNameOfCompany() + " " + oldTelephone.getModelName());
         oldTelephone.linuxOS();
         oldTelephone.call();
         oldTelephone.internet();
