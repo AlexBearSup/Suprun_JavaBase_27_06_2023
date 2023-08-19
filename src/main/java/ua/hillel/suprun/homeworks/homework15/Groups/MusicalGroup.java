@@ -8,6 +8,7 @@ public abstract class MusicalGroup {
         this.name = name;
     }
     public String getName() {
+
         return name;
     }
 }
