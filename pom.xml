@@ -11,8 +11,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -47,7 +47,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>ua.hillel.suprun.homeworks.homework18.Main</mainClass>
+                            <mainClass>ua.hillel.suprun.homeworks.homework18.ArrayUtil</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
