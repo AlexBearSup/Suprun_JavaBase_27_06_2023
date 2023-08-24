@@ -27,8 +27,8 @@ public class TestArrayUtil {
     }
     @Test
     void test13() {
-        arr1 = new int[]{1, 2, 3, 4, 5, 6, 7};
-        Assertions.assertEquals(1, ArrayUtil.averageNumber(arr1));
+        arr1 = new int[]{1, 2, 4};
+        Assertions.assertEquals(2.3333333333333335, ArrayUtil.averageNumber(arr1));
     }
 
     //  тестирование 2го метода, КВАДРТАНЫЙ ЛИ 2мерный массив

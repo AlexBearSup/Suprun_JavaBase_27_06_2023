@@ -8,7 +8,7 @@ public class ArrayUtil {
 
 
 
-    public static int averageNumber (int[] array){
+    public static double averageNumber (int[] array){
         if (array == null){
             return -3;
         }
@@ -16,13 +16,13 @@ public class ArrayUtil {
             return -2;
         }
         int x = 0;
-        int average;
+        double average;
         for (int i = 0; i < array.length; i++) {
             x += array[i];
         }
-        average = x / array.length;
+        average = (double) x / array.length;
 //        System.out.println("Середньє значення массиву = " + average);
-        return 1;
+        return average;
     }
 
 
